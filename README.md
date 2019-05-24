@@ -1,2 +1,2 @@
-# MigrationGenerator
-dotnet tool to generate blank migrations
+# FluentMigrator.Core.Generator
+dotnet tool to generate blank fluentmigrator migrations
