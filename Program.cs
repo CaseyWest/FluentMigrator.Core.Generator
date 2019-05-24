@@ -41,7 +41,7 @@ namespace FluentMigrator.Generator
         private static void GenerateMigration(string migrationName, string projectName)
         {
             var ns = $"{projectName}.Migrations";
-            var ts = DateTime.Now.ToString(@"yyyyMMDDHHmmss");
+            var ts = DateTime.Now.ToString(@"yyyyMMddHHmmss");
             var fileName = $"{ts}_{migrationName}.cs";
             
             var sb = new StringBuilder();
