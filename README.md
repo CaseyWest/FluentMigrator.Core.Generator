@@ -6,14 +6,15 @@ This tool was greatly inspired by [fluentmigrator-generator](https://github.com/
 ## Getting Started
 In the terminal run the following commands:
 1) git clone git@github.com:CaseyWest/FluentMigrator.Core.Generator.git
-2) dotnet build
-3) dotnet pack
-4) dotnet tool install --global --add-source ./nupkg FluentMigrator.Core.Generator
+2) cd FluentMigrator.Core.Generator
+3) dotnet build
+4) dotnet pack
+5) dotnet tool install --global --add-source ./nupkg FluentMigrator.Core.Generator
 
 Once installed the following command will create a migration.
 
 ```console
-dotnet add-migration InitialMigration
+$ dotnet add-migration InitialMigration
 ```
 
 The above command produces the following migration.
