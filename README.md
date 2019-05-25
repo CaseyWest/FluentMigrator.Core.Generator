@@ -5,7 +5,7 @@ This tool was greatly inspired by [fluentmigrator-generator](https://github.com/
 
 ## Getting Started
 In the terminal run the following commands:
-1) clone the repo
+1) git clone git@github.com:CaseyWest/FluentMigrator.Core.Generator.git
 2) dotnet build
 3) dotnet pack
 4) dotnet tool install --global --add-source ./nupkg FluentMigrator.Core.Generator
