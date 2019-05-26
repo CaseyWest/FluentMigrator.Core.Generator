@@ -49,7 +49,7 @@ namespace FluentMigrator.Generator
             sb.AppendLine("");
             sb.AppendLine($"namespace {ns}");
             sb.AppendLine("{");
-            sb.AppendLine($"    [Migration(\"{ts}\")]");
+            sb.AppendLine($"    [Migration({ts})]");
             sb.AppendLine($"    public class {migrationName} : Migration");
             sb.AppendLine("    {");
             sb.AppendLine("        public override void Up()");

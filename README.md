@@ -23,7 +23,7 @@ using FluentMigrator;
 
 namespace FluentMigrator.Core.Generator.Migrations
 {
-    [Migration("20190524210250")]
+    [Migration(20190524210250)]
     public class InitialMigration : Migration
     {
         public override void Up()
